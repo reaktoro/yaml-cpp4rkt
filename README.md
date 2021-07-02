@@ -1,3 +1,5 @@
+> **Note:** yaml-cpp4rkt is a fork of yaml-cpp to be used in Reaktoro (it exists to produce conda-forge package with most up-to-date version and bug-fixes of yaml-cpp, not yet released by the yaml-cpp team).
+
 # yaml-cpp [![Build Status](https://travis-ci.org/jbeder/yaml-cpp.svg?branch=master)](https://travis-ci.org/jbeder/yaml-cpp) [![Documentation](https://codedocs.xyz/jbeder/yaml-cpp.svg)](https://codedocs.xyz/jbeder/yaml-cpp/)
 
 yaml-cpp is a [YAML](http://www.yaml.org/) parser and emitter in C++ matching the [YAML 1.2 spec](http://www.yaml.org/spec/1.2/spec.html).
