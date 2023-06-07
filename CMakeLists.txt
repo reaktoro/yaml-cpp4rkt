@@ -99,6 +99,7 @@ if (NOT DEFINED CMAKE_CXX_STANDARD)
   set_target_properties(yaml-cpp
     PROPERTIES
       CXX_STANDARD 17)
+  target_compile_features(yaml-cpp PUBLIC cxx_std_17)  # propagate to dependent libraries this requirement
 endif()
 
 if(YAML_CPP_MAIN_PROJECT)
