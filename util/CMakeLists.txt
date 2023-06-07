@@ -28,5 +28,5 @@ set_target_properties(yaml-cpp-read
 if (NOT DEFINED CMAKE_CXX_STANDARD)
   set_target_properties(yaml-cpp-sandbox yaml-cpp-parse yaml-cpp-read
     PROPERTIES
-      CXX_STANDARD 11)
+      CXX_STANDARD 17)
 endif()
